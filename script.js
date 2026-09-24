@@ -69,17 +69,33 @@ startAutoplay();
 //datos de los boletines 
 
 const datosBoletines=[{
-    img:dsaklfj,
-    name:sdaklfj,
+    img:'dsaklfj',
+    name:'sdaklfj',
     date:222,
-    description:dksjfalksj,
+    description:'dksjfalksj',
 
 
 
 }]
 
+
+
 //agregar objeto a los boletines
 
+/*<div class="card">
+                    <div class="content-imagen">
+                        <img src="./assents/images.jpeg" alt="">
+                    </div>
+                    <div class="content-info">
+                        <div class="content-text">
+                            <h3>Boletín | Agosto 2026</h3>
+                            <p>Conectamos creatividad, tecnología y comunidad, celebrando las fechas que nos inspiran a crear y compartir.</p>
+                        </div>
+                        <div class="content-button-more-info">
+                            <a href="">Mas inf</a>
+                        </div>
+                    </div>
+                </div>*/
 
 
 
