@@ -9,6 +9,8 @@
     --background-buttons-prev-next:#ffffff;
     --background-cards:#E9EEF8;
     --background-header:#FFFFFF;
+    --background-line-footer:#CFCFCF;
+    --background-line-main:#D9D9D9;
 }
 
 /* configuracion del cuerpo */
@@ -52,12 +54,13 @@ h3{
 p{
     font-size: 24px;
     font-family: 'Montserrat',sans-serif;
-    font-width: 400;
+    font-width: 500;
     color: var(--color-text-primary);
 }
 
 hr{
     margin: 1rem 4rem;
+    
 }
 
 /* ajustes de tamaño del header*/
@@ -115,6 +118,8 @@ header ul{
 }
 header li{
     color: var(--color-text-primary);
+    font-family: 'Montserrat';
+    font-weight: 600;
 }
 
 a{
@@ -133,6 +138,8 @@ a{
     align-items: center;
     color: var(--color-text-secondary);
     border-radius: 5px;
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* semiBold */
 }
 /*contenido del carrucel*/
 
@@ -243,6 +250,10 @@ Contenido de los boletines
 .card:hover{
     transform: translateY(-5px);
 }
+.content-button-more-info a{
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
 .content-imagen{
     flex: 1.3;
     border-radius: 5px;
@@ -267,7 +278,7 @@ Contenido de los boletines
     flex: 5;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 .content-button-more-info{
     flex: 1;
@@ -297,6 +308,7 @@ Contenido de los boletines
     grid-template-columns: repeat(auto-fit,minmax(700px,1fr));
     gap: 40px;
     padding: 2rem 159px;
+    justify-items: center;
     
     
     
@@ -337,6 +349,9 @@ Contenido de los boletines
    
     
 }
+.end-line{
+    color: var(--background-line-main);
+}
 
 /* estilos del footer*/
 footer{
@@ -346,16 +361,19 @@ footer{
     
     
 }
+footer hr{
+    color: var(--background-line-footer);
+}
 h4{
      font-size: 20px;
     color: var(--color-text-secondary);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-weight: 700; /* Bold */
 }
 footer p,li{
     font-size: 20px;
     color: var(--color-text-secondary);
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat';
     font-weight: 500;
 }
 .content-info-footer{
